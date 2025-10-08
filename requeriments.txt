@@ -1,0 +1,8 @@
+streamlit
+plotly
+pandas
+numpy
+streamlit-option-menu
+unidecode
+rasterio
+leaflet
