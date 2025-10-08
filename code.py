@@ -17,21 +17,20 @@ import streamlit.components.v1 as components
 # ================== CONFIG ==================
 st.set_page_config(
     page_title="Perdia de vegetación en Darién",
-    page_icon="/share/home/ruts/visualizacion/logos/circle-white.svg",
+    page_icon="logos/circle-white.svg",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
 
-LOGO_PATH = "/share/www/projects/js-dir/img/twp-principal.svg"   # ← tu logo
-LOGO_PATH = '/share/www//projects/js-dir/img/logos/svg/circle-white.svg'
-LANDCOVER_PATH = "/share/home/ruts/visualizacion/darien/static/landcover_darien.tif"  # <-- ajusta
+LOGO_PATH = 'logos/svg/circle-white.svg'
+LANDCOVER_PATH = "landcover_darien.tif"  # <-- ajusta
 
 
 logo_data_uri = img_to_data_uri(LOGO_PATH)
-icon_prev  = img_to_data_uri("/share/home/ruts/visualizacion/logos/previous-svgrepo-com.svg")
-icon_play  = img_to_data_uri("/share/home/ruts/visualizacion/logos/play-svgrepo-com.svg")
-icon_pause = img_to_data_uri("/share/home/ruts/visualizacion/logos/pause-svgrepo-com.svg")
-icon_next  = img_to_data_uri("/share/home/ruts/visualizacion/logos/next-svgrepo-com.svg")
+icon_prev  = img_to_data_uri("logos/previous-svgrepo-com.svg")
+icon_play  = img_to_data_uri("logos/play-svgrepo-com.svg")
+icon_pause = img_to_data_uri("logos/pause-svgrepo-com.svg")
+icon_next  = img_to_data_uri("logos/next-svgrepo-com.svg")
 
 #  ================== ESTILOS (UN SOLO BLOQUE) ==================
 st.markdown(f"""
