@@ -379,7 +379,6 @@ for label in LABELS:
         "img": rgba_to_dataurl(rgba_i),
         "bounds": [w_i, s_i, e_i, n_i],  # [W,S,E,N]
     })
-<style>
 
 html = f"""
 <style>
