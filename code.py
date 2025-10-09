@@ -165,7 +165,7 @@ st.markdown(
     unsafe_allow_html=True
 )
    
-dirpath = '/share/home/ruts/visualizacion/darien/static/mask_loss/'
+dirpath = 'mask_loss/'
 # Rutas de tus 5 máscaras 0/1 (ajusta si cambian)
 RASTERS = {
     "2020 → 2021": f"{dirpath}Mask_Loss_2020_2021_adaptive.tif",
