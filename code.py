@@ -227,8 +227,7 @@ st.markdown(f"""
 /* ===== Tipografía: local (./static) con fallback a Google ===== */
 @font-face {{
   font-family: 'PoppinsLocal';
-  src: url('Poppins-Regular.woff2') format('woff2'),
-       url('Poppins-Regular.ttf') format('truetype');
+  src: local('Poppins'), url('https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
