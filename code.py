@@ -249,7 +249,7 @@ st.markdown(f"""
 
 /* ===== Cabecera (logo + título) ===== */
 .header-row {{ display:flex; align-items:center; gap:12px; }}
-.header-row h1 {{ margin:0; font-size:25px; font-weight:400; color:#fff; }}
+.header-row h1 {{ margin:0; font-size:25px; font-weight:600; color:#fff; }}
 .header-row img {{ height:5vh; width:auto; }}
 
 /* ===== Controles player debajo del mapa ===== */
