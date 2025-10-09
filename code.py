@@ -17,12 +17,12 @@ import streamlit.components.v1 as components
 # ================== CONFIG ==================
 st.set_page_config(
     page_title="Perdia de vegetación en Darién",
-    page_icon="logos/circle-white.svg",
+    page_icon="circle-white.svg",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
 
-LOGO_PATH = 'logos/svg/circle-white.svg'
+LOGO_PATH = 'circle-white.svg'
 LANDCOVER_PATH = "landcover_darien.tif"  # <-- ajusta
 
 
