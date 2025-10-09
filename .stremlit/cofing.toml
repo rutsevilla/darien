@@ -4,7 +4,7 @@ enableStaticServing = true
 
 [[theme.fontFaces]]
 family = "Poppins"
-url = "app/static/Poppins-Regular.woff2"
+url = "app/Poppins-Regular.woff2"
 style = "normal"
 
 
