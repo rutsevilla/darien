@@ -27,10 +27,10 @@ LANDCOVER_PATH = "landcover_darien.tif"  # <-- ajusta
 
 
 logo_data_uri = img_to_data_uri(LOGO_PATH)
-icon_prev  = img_to_data_uri("logos/previous-svgrepo-com.svg")
-icon_play  = img_to_data_uri("logos/play-svgrepo-com.svg")
-icon_pause = img_to_data_uri("logos/pause-svgrepo-com.svg")
-icon_next  = img_to_data_uri("logos/next-svgrepo-com.svg")
+icon_prev  = img_to_data_uri("previous-svgrepo-com.svg")
+icon_play  = img_to_data_uri("play-svgrepo-com.svg")
+icon_pause = img_to_data_uri("pause-svgrepo-com.svg")
+icon_next  = img_to_data_uri("next-svgrepo-com.svg")
 
 #  ================== ESTILOS (UN SOLO BLOQUE) ==================
 st.markdown(f"""
