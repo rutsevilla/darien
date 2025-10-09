@@ -229,4 +229,3 @@ def bar_100_stacked(df_long, x_col, y_col, color_col, color_order=None, color_ma
     )
     fig.update_xaxes(type="category", tickangle=angle)
     return fig
-
